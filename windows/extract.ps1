@@ -57,7 +57,7 @@ try {
             "Content-Type" = "application/json"; 
             "Authorization" = "Basic $base64AuthInfo" 
         } `
-        -Body $body -Verbose
+        -Body $body
 
     Write-Output $response
 } catch {
