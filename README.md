@@ -24,7 +24,13 @@ Extracting hidden env variables using: 87g2k1f086.png
 Requesting URL: https://192.168.11.111:8443/api/stego/extract/text
 Request Body: {
     "file":  "87g2k1f086.png"
-}                                                                                                                    {"text":"__PSLockDownPolicy=0                                                                                        ALLUSERSPROFILE=C:\ProgramData                                                                                       APPDATA=C:\Users\ersin.esen\AppData\Roaming                                                                          CommonProgramFiles=C:\Program Files\Common Files                                                                     CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files                                                          CommonProgramW6432=C:\Program Files\Common Files  
+}
+{"text":"__PSLockDownPolicy=0
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\ersin.esen\AppData\Roaming
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
 ...
 ```
 
